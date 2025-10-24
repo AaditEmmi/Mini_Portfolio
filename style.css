@@ -1,0 +1,51 @@
+h1{
+    color: rgb(77, 77, 88);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-weight: bolder;
+}
+h3{
+    color: rgb(55, 55, 64);
+    font-weight: bolder;
+    font-style: bold;
+}
+pre{
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 30px;
+    width: 80%;
+    box-shadow: 5px 5px 10px grey;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+   
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: auto;
+    margin: 50px;
+}
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding: auto;
+  line-height: 1.7;
+}
+footer>pre{
+    text-align: center;
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+a:hover{
+    color: grey;
+    font-size: 18px;
+
+}
